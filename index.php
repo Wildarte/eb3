@@ -8,118 +8,167 @@
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/m-caroussel.css">
     <title>Blog EB3</title>
+    <style>
+        :root{}
+    </style>
 </head>
 <body>
     
-    <header>
-        <div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <nav>
+    <header class="header">
+        <div class="header_content container">
+            <a class="link_logo_home" href="#">
+                <img src="./assets/img/logo.png" alt="">
+            </a>
+            <nav class="menu">
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contatos</a></li>
                 </ul>
             </nav>
-            <div>
-                <form action="" method="post">
-                    <input type="text" name="s" id="">
-                </form>
-            </div>
-            <div>
-                <a href="#">Inscreva-se</a>
+            <div class="header_right">
+                <div class="form_search_header">
+                    <form action="" method="post">
+                        <input type="search" name="s" id="" placeholder="Pesquisar...">
+                        <button type="submit" class="bi bi-search"></button>
+                        <i class="bi bi-search focus-search"></i>
+                    </form>
+                </div>
+                <div class="cta_header">
+                    <a href="#">Inscreva-se</a>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
 
-        <section>
-            <div>
-                <div>
-                    <h1 style="font-weight: 300;">Insights para ajudar você a</h1>
-                    <i class="bi bi-alarm-fill"></i>
-                    <h2>crescer o seu negócio</h2>
-                    <p>Seja bem-vindo ao blog da Rock Content. Aprenda sobre como criar experiências de conteúdo que atraem, convertem e retêm seu público ao longo de todos os estágios da jornada de compra.</p>
+        <section class="section_intro_home">
+            <div class="home_content container">
+                <div class="home_intro_left">
+                    <h1 class="home_intro_title">Insights para ajudar você a</h1>
+                   
+                    <h2 class="home_intro_subtitle">crescer o seu negócio</h2>
+                    <p class="home_intro_text">Seja bem-vindo ao blog da Rock Content. Aprenda sobre como criar experiências de conteúdo que atraem, convertem e retêm seu público ao longo de todos os estágios da jornada de compra.</p>
 
-                    <a href="#">Inscreva-se</a>
+                    <a class="home_intro_cta" href="#">Inscreva-se</a>
                 </div>
 
-                <div>
-                    <img src="" alt="">
+                <div class="home_intro_right">
+                    <img src="./assets/img/img_intro.png" alt="">
                 </div>
             </div>
         </section>
 
-        <section style="border: 1px solid; min-height: 200px;">
-            <div class="owl-carousel owl-theme my-carousel" style="display: flex; justify-content: flex-start;border: 1px solid">
-                <article style="border: 1px solid red; width: 200px; height: 200px">
-                    <div>
+        <section class="section_posts container">
+            <div class="post_top_home">
+                <div class="owl-carousel owl-theme my-carousel" style="">
+                    <article class="card_post_top">
+                        <img class="img_thump_post_top" src="./assets/img/post-top.jpg" alt="">
+                        <div class="text_post_top">
+                            <h2>Saiba o que é arquitetura centrada em dados e como deixar a sua empresa preparada</h2>
+                            <p>A arquitetura centrada em dados é uma nova mentalidade de negócio, que coloca os dados no centro das organizações. N...</p>
 
-                    </div>
-                    <div>
-                        <h2>Saiba o que é arquitetura centrada em dados e como deixar a sua empresa preparada</h2>
-                        <p>A arquitetura centrada em dados é uma nova mentalidade de negócio, que coloca os dados no centro das organizações. N(...)</p>
-
-                    </div>
-
-                    <div>
-                        <div>
-                            <img src="" alt="">
                         </div>
-                        <div>
-                            02/02/2022
+
+                        <div class="card_post_top_author">
+                            <div class="img_author">
+                                <img src="./assets/img/user.png" alt="">
+                            </div>
+                            <div>
+                                02/02/2022
+                            </div>
                         </div>
-                    </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
 
-                </article>
+                    <article class="card_post_top">
+                        <img class="img_thump_post_top" src="./assets/img/post-top2.jpg" alt="">
+                        <div class="text_post_top">
+                            <h2>Saiba o que é arquitetura centrada em dados e como deixar a sua empresa preparada</h2>
+                            <p>A arquitetura centrada em dados é uma nova mentalidade de negócio, que coloca os dados no centro das organizações. N...</p>
 
+                        </div>
+
+                        <div class="card_post_top_author">
+                            <div class="img_author">
+                                <img src="./assets/img/user.png" alt="">
+                            </div>
+                            <div>
+                                02/02/2022
+                            </div>
+                        </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
+
+                    <article class="card_post_top">
+                        <img class="img_thump_post_top" src="./assets/img/post-top3.jpg" alt="">
+                        <div class="text_post_top">
+                            <h2>Saiba o que é arquitetura centrada em dados e como deixar a sua empresa preparada</h2>
+                            <p>A arquitetura centrada em dados é uma nova mentalidade de negócio, que coloca os dados no centro das organizações. N...</p>
+
+                        </div>
+
+                        <div class="card_post_top_author">
+                            <div class="img_author">
+                                <img src="./assets/img/user.png" alt="">
+                            </div>
+                            <time>
+                                02/02/2022
+                            </time>
+                        </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
+
+                </div>
             </div>
+            
 
-            <section>
-                <article>
-                    <img src="" alt="">
-                    <h2>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h2>
-                    <p>Um estudo com 2.000 pessoas dos EUA e do Reino Unido pela Edit, especialista em dados de clientes, e Kin + Carta, uma co(...)</p>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+            <section class="posts_pos_top">
+                <article class="card_post_pos_top">
+                    <img class="thumb_post_top" src="./assets/img/post-pos-top1.jpg" alt="">
+                    <h2 class="card_title_pos_top">A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h2>
+                    <p class="card_resumo_post_pot">Um estudo com 2.000 pessoas dos EUA e do Reino Unido pela Edit, especialista em dados de clientes, e Kin + Carta, uma co(...)</p>
+                    <div class="card_author_pos_top">
+                        <div class="thumb_author_pos_top">
+                            <img src="./assets/img/user.png" alt="">
                         </div>
-                        <div>
+                        <time>
                             02/02/2022
-                        </div>
+                        </time>
                     </div>
+                    <a class="link_post" href="#"></a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <h2>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h2>
-                    <p>Um estudo com 2.000 pessoas dos EUA e do Reino Unido pela Edit, especialista em dados de clientes, e Kin + Carta, uma co(...)</p>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                <article class="card_post_pos_top">
+                    <img class="thumb_post_top"  src="./assets/img/post-pos-top2.jpg" alt="">
+                    <h2 class="card_title_pos_top">A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h2>
+                    <p class="card_resumo_post_pot">Um estudo com 2.000 pessoas dos EUA e do Reino Unido pela Edit, especialista em dados de clientes, e Kin + Carta, uma co(...)</p>
+                    <div class="card_author_pos_top">
+                        <div class="thumb_author_pos_top">
+                            <img src="./assets/img/user.png" alt="">
                         </div>
-                        <div>
+                        <time>
                             02/02/2022
-                        </div>
+                        </time>
                     </div>
+                    <a class="link_post" href="#"></a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <h2>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h2>
-                    <p>Um estudo com 2.000 pessoas dos EUA e do Reino Unido pela Edit, especialista em dados de clientes, e Kin + Carta, uma co(...)</p>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                <article class="card_post_pos_top">
+                    <img  class="thumb_post_top" src="./assets/img/post-pos-top3.jpg" alt="">
+                    <h2 class="card_title_pos_top">A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h2>
+                    <p class="card_resumo_post_pot">Um estudo com 2.000 pessoas dos EUA e do Reino Unido pela Edit, especialista em dados de clientes, e Kin + Carta, uma co(...)</p>
+                    <div class="card_author_pos_top">
+                        <div class="thumb_author_pos_top">
+                            <img src="./assets/img/user.png" alt="">
                         </div>
-                        <div>
+                        <time>
                             02/02/2022
-                        </div>
+                        </time>
                     </div>
+                    <a class="link_post" href="#"></a>
                 </article>
             </section>
         </section>
@@ -309,8 +358,11 @@
                 nav:true,
                 responsive:{
                     0:{
-                        items:1
-                    }   
+                        items:1,
+                        nav:true,
+                        margin: 20,
+                        loop: false
+                    }
                 }
             });
         });
