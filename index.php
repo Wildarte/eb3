@@ -173,13 +173,13 @@
             </section>
         </section>
 
-        <section>
-            <div>
-                <div>
-                    <h3>Inscreva-se em nosso blog</h3>
+        <section class="section_subscribe container-full">
+            <div class="content_subscribe container">
+                <div class="subscribe_left">
+                    <h3><strong>Inscreva-se</strong> em nosso blog</h3>
                     <p>Acesse, em primeira mão, nossos principais posts diretamente em seu email</p>
                 </div>
-                <div>
+                <div class="subscribe_right">
                     <form action="" method="post">
                         <input type="email" name="" id="" placeholder="E-mail">
                         <button>Enviar</button>
@@ -188,113 +188,152 @@
             </div>
         </section>
 
-        <section>
-            <section>
-                <article>
-                    <img src="" alt="">
-                    <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            02/02/2022
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <img src="" alt="">
-                    <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            02/02/2022
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <img src="" alt="">
-                    <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            02/02/2022
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <img src="" alt="">
-                    <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            02/02/2022
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <img src="" alt="">
-                    <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
-                    <div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                        <div>
-                            02/02/2022
-                        </div>
-                    </div>
-                </article>
-
-                <div>
-                    <a href="#">Ver mais posts</a>
-                </div>
-            </section>
-
-            <section>
-                <h3>Escolha do Editor</h3>
-                <section>
-                    <article>
-                        <h4>Remarketing e retargeting: qual a diferença e quando usar cada estratégia</h4>
-                        <p>
-                            <div>
-                                <img src="" alt="">
+        <section class="section_last_posts container-full">
+            <div class="content_last_posts container">
+                <section class="left_last_posts">
+                    <header class="header_last_posts">
+                        <h3>Últimas Publicações</h3>
+                    </header>
+                    <article class="card_last_post">
+                        <img class="thumb_last_post" src="./assets/img/last-post1.jpg" alt="">
+                        <div class="card_last_post_text">
+                            <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
+                            <div class="data_last_post">
+                                <div class="photo_author_last_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <time>
+                                    02/02/2022
+                                </time>
                             </div>
-                            <span>
-                                Redator Rock Content
-                            </span>
-                        </p>
+                        </div>
+                        <a class="link_post" href="#"></a>
                     </article>
-                    <article>
-                        <h4>Remarketing e retargeting: qual a diferença e quando usar cada estratégia</h4>
-                        <p>
-                            <div>
-                                <img src="" alt="">
+                    <article class="card_last_post">
+                        <img class="thumb_last_post" src="./assets/img/last-post2.jpg" alt="">
+                        <div class="card_last_post_text">
+                            <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
+                            <div class="data_last_post">
+                                <div class="photo_author_last_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <time>
+                                    02/02/2022
+                                </time>
                             </div>
-                            <span>
-                                Redator Rock Content
-                            </span>
-                        </p>
+                        </div>
+                        <a class="link_post" href="#"></a>
                     </article>
+                    <article class="card_last_post">
+                        <img class="thumb_last_post" src="./assets/img/last-post3.jpg" alt="">
+                        <div class="card_last_post_text">
+                            <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
+                            <div class="data_last_post">
+                                <div class="photo_author_last_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <time>
+                                    02/02/2022
+                                </time>
+                            </div>
+                        </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
+                    <article class="card_last_post">
+                        <img class="thumb_last_post" src="./assets/img/last-post4.jpg" alt="">
+                        <div class="card_last_post_text">
+                            <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
+                            <div class="data_last_post">
+                                <div class="photo_author_last_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <time>
+                                    02/02/2022
+                                </time>
+                            </div>
+                        </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
+                    <article class="card_last_post">
+                        <img class="thumb_last_post" src="./assets/img/last-post5.jpg" alt="">
+                        <div class="card_last_post_text">
+                            <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
+                            <div class="data_last_post">
+                                <div class="photo_author_last_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <time>
+                                    02/02/2022
+                                </time>
+                            </div>
+                        </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
+                    <article class="card_last_post">
+                        <img class="thumb_last_post" src="./assets/img/last-post6.jpg" alt="">
+                        <div class="card_last_post_text">
+                            <h3>A fidelidade às marcas está diminuindo: como manter os clientes engajados mesmo assim</h3>
+                            <div class="data_last_post">
+                                <div class="photo_author_last_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <time>
+                                    02/02/2022
+                                </time>
+                            </div>
+                        </div>
+                        <a class="link_post" href="#"></a>
+                    </article>
+                    <div class="btn_see_more_home">
+                        <a href="#">Ver mais posts</a>
+                    </div>
                 </section>
 
-                <section>
-                    <article>
-                        <img src="" alt="">
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                    </article>
-                    <article>
-                        <img src="" alt="">
-                    </article>
+                <section class="right_last_posts">
+                    <h3>Escolha do Editor</h3>
+                    <section class="body_right_last_post">
+                        <article class="card_right_last_post">
+                            <a href="#">
+                                <h4>Remarketing e retargeting: qual a diferença e quando usar cada estratégia</h4>
+                            </a>
+                            <div class="author_right_post">
+                                <div class="photo_author_right_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <span class="name_author_right_post">
+                                    Redator Rock Content
+                                </span>
+                            </div>
+                        </article>
+
+                        <article class="card_right_last_post">
+                            <a href="#">
+                                <h4>Remarketing e retargeting: qual a diferença e quando usar cada estratégia</h4>
+                            </a>
+                            <div class="author_right_post">
+                                <div class="photo_author_right_post">
+                                    <img src="./assets/img/user.png" alt="">
+                                </div>
+                                <span class="name_author_right_post">
+                                    Redator Rock Content
+                                </span>
+                            </div>
+                        </article>
+                    </section>
+
+                    <section class="img_ads">
+                        <a href="#" class="card_img_ads">
+                            <img src="./assets/img/ads1.webp" alt="">
+                        </a>
+                        <a href="#" class="card_img_ads">
+                            <img src="./assets/img/ads2.webp" alt="">
+                        </a>
+                        <a href="#" class="card_img_ads">
+                            <img src="./assets/img/ads3.webp" alt="">
+                        </a>
+                    </section>
                 </section>
-            </section>
+            </div>
         </section>
 
     </main>
