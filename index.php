@@ -21,7 +21,17 @@
             <a class="link_logo_home" href="#">
                 <img src="./assets/img/logo.png" alt="">
             </a>
+            <div class="btn_mobile">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </div>
             <nav class="menu">
+                <div class="top_menu_mobile">
+                    <span class="btn_close_menu_mobile" id="btn_close_menu_mobile">
+                        <i class="bi bi-x-square"></i>
+                    </span>
+                </div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Categorias</a></li>
@@ -78,9 +88,9 @@
                             <div class="img_author">
                                 <img src="./assets/img/user.png" alt="">
                             </div>
-                            <div>
+                            <time>
                                 02/02/2022
-                            </div>
+                            </time>
                         </div>
                         <a class="link_post" href="#"></a>
                     </article>
@@ -97,9 +107,9 @@
                             <div class="img_author">
                                 <img src="./assets/img/user.png" alt="">
                             </div>
-                            <div>
+                            <time>
                                 02/02/2022
-                            </div>
+                            </time>
                         </div>
                         <a class="link_post" href="#"></a>
                     </article>

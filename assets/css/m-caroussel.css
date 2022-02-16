@@ -83,3 +83,18 @@ a.link_post{
     font-size: 5em;
     color: #fff;
 }
+
+@media(max-width: 768px){
+    .my-carousel{
+        margin: 0px;
+    }
+}
+@media(max-width: 420px){
+    .owl-next, .owl-prev{
+        top: 80px;
+        padding: 20px!important;
+    }
+    .owl-next span, .owl-prev span{
+        font-size: 3em;
+    }
+}
