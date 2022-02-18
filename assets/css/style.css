@@ -210,7 +210,7 @@ p.home_intro_text{
     justify-content: space-between;
 }
 .card_post_pos_top{
-    flex-basis: calc(33.33% - 20px);
+    flex-basis: calc(33.33% - 30px);
     margin: 15px;
     position: relative;
 }

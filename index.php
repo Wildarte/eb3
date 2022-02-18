@@ -1,58 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/m-caroussel.css">
-    <title>Blog EB3</title>
-    <style>
-        :root{}
-    </style>
-</head>
-<body>
-    
-    <header class="header">
-        <div class="header_content container">
-            <a class="link_logo_home" href="#">
-                <img src="./assets/img/logo.png" alt="">
-            </a>
-            <div class="btn_mobile">
-                <span class="bar bar1"></span>
-                <span class="bar bar2"></span>
-                <span class="bar bar3"></span>
-            </div>
-            <nav class="menu">
-                <div class="top_menu_mobile">
-                    <span class="btn_close_menu_mobile" id="btn_close_menu_mobile">
-                        <i class="bi bi-x-square"></i>
-                    </span>
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contatos</a></li>
-                </ul>
-            </nav>
-            <div class="header_right">
-                <div class="form_search_header">
-                    <form action="" method="post">
-                        <input type="search" name="s" id="" placeholder="Pesquisar...">
-                        <button type="submit" class="bi bi-search"></button>
-                        <i class="bi bi-search focus-search"></i>
-                    </form>
-                </div>
-                <div class="cta_header">
-                    <a href="#">Inscreva-se</a>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php include('./header.php'); ?>
 
     <main>
 
@@ -183,20 +129,7 @@
             </section>
         </section>
 
-        <section class="section_subscribe container-full">
-            <div class="content_subscribe container">
-                <div class="subscribe_left">
-                    <h3><strong>Inscreva-se</strong> em nosso blog</h3>
-                    <p>Acesse, em primeira mão, nossos principais posts diretamente em seu email</p>
-                </div>
-                <div class="subscribe_right">
-                    <form action="" method="post">
-                        <input type="email" name="" id="" placeholder="E-mail">
-                        <button>Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+        <?php include('./inc/newsLetter.php') ?>
 
         <section class="section_last_posts container-full">
             <div class="content_last_posts container">
@@ -348,73 +281,4 @@
 
     </main>
 
-    <footer class="footer container-full">
-        <div class="footer_main container">
-            <div class="footer_left">
-                <h3>
-                Quer receber mais conteúdos brilhantes como esse de graça?
-                </h3>
-                <h4>
-                Inscreva-se para receber nossos conteúdos por email e participe da comunidade da Rock Content!
-                </h4>
-            </div>
-
-            <div class="footer_right">
-                <form action="" method="post">
-                    <input type="text" name="" id="" placeholder="E-mail...">
-                    <button class="footer_btn_submit">Enviar</button>
-                </form>
-            </div>
-        </div>
-        <div class="footer_info container-full">
-            <div class="container footer_content_info">
-                <p class="footer_logo">
-                    <a class="footer_link_logo" href="#">
-                        <img src="./assets/img/logo.png" alt="">
-                    </a>
-                </p>
-                <p class="footer_link_politicas">
-                    <a href="#">Legal</a>
-                    <a href="#">Política de Privacidade</a>
-                </p>
-                <ul class="footer_social">
-                    <li>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/script.js"></script>
-    <script>
-        $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                responsive:{
-                    0:{
-                        items:1,
-                        nav:true,
-                        margin: 20,
-                        loop: false
-                    }
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+<?php include('./footer.php'); ?>
